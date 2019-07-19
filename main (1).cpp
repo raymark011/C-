@@ -34,3 +34,35 @@ int main()
 
     return 0;
 }
+/*
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    string sname, section;
+    float firstgrade, secondgrade, thirdgrade, fourthgrade, average;
+    
+    cout << "Enter your name: " << "\n";
+    cin >> sname;
+    cout << "Section: " << "\n";
+    cin >> section;
+    cout << "Enter first Grade: " << "\n";
+    cin >> firstgrade;
+    cout << "Enter second Grade: " << "\n";
+    cin >> secondgrade;
+    cout << "Enter third Grade: " << "\n";
+    cin >> thirdgrade;
+    cout << "Enter fourth Grade: " << "\n";
+    cin >> fourthgrade;
+    
+    average = (firstgrade + secondgrade + thirdgrade + fourthgrade)/4;
+    cout << "Your name: " << sname << "\n";
+    cout << "Section: " << section << "\n";
+    cout << "Final Grade: " << average << "\n";
+    
+        return 0;
+}
+*/
